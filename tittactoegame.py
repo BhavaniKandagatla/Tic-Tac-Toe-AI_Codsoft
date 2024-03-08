@@ -39,7 +39,7 @@ def play_game():
     board = [[" "]*3 for _ in range(3)]
     players = ["X", "0"]
     random.shuffle(players)
-    print("Player", players[0], " AI goes first.")
+    print("Player", players[0], " goes first.")
 
     for turn in range(9):
         player = players[turn % 2]
